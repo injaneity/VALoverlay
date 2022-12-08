@@ -101,7 +101,7 @@ class valAnalysis:
                                 else:
                                     print('error weird number')
 
-                                if vision.findObjects(bar, bar_side, 0.28):
+                                if vision.findObjects(bar, bar_side, 0.35):
                                     ValObject.is_alive = True
                                     print("alive")
                                 else:
